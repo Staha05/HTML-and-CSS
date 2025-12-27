@@ -1,0 +1,193 @@
+.body {
+    background-color: #00ffff;
+    margin: 0;
+}
+
+.div-original {
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+    box-shadow: 0 0 100px #e06343;
+    background-color: aliceblue;
+    margin: 75px auto;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.div_dizine {
+    width: 100%;
+    max-width: 480px;
+    margin: auto;
+}
+
+.text_login,
+.text_sign_in {
+    margin: 0 0 40px 0;
+    font-size: 50px;
+    text-align: center;
+    color: #00ffff;
+    text-shadow: 3px 5px 15px #e06343;
+}
+
+.input_email,
+.input_password,
+.input_username,
+.input_birthday {
+    background-color: #dce6e6;
+    width: 100%;
+    height: 35px;
+    border-radius: 50px;
+    padding: 0 15px;
+    box-shadow: 0 0 10px #e06343;
+    border: none;
+    margin-top: 16px;
+    display: block;
+
+}
+
+.input_email:focus,
+.input_password:focus,
+.input_username:focus,
+.input_birthday:focus {
+    transform: scale(1.05);
+    border: 3px solid #e06343;
+    outline: none;
+}
+
+
+.input_email:hover,
+.input_password:hover,
+.input_username:hover,
+.input_birthday:hover {
+    transform: scale(1.05);
+    border: #e06343;
+}
+
+
+
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 7px;
+    display: block;
+}
+
+.Create_an_account,
+.login {
+    display: block;
+    margin-top: 10px;
+    color: #e06343;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button_login,
+.button_sign_in {
+    background-color: #e06343;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px #e06343;
+    margin: 30px auto 0 auto;
+    display: block;
+}
+
+
+.button_login:hover,
+.button_sign_in:hover {
+    background-color: #00ffff;
+    color: #b04a33;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.div_dizine2 {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: 40px auto 0 auto;
+}
+
+.icon_page {
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.cadre_Information {
+    background-color: #00ffff;
+    height: auto;
+    width: 100%;
+    max-width: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px auto;
+    padding: 10px 5%;
+    box-shadow: 0 4px 10px rgba(255, 96, 56, 0.3);
+    text-align: center;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.div_to_Information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.link_email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.tel {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon_email,
+.icon_phone,
+.icon_ghithub,
+.icon_instagram {
+    width: 40px;
+    height: 40px;
+}
+
+.icon_email:hover,
+.icon_phone:hover,
+.icon_ghithub:hover,
+.icon_instagram:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+.div_Social_network {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.link_github {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.link_instagram {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
